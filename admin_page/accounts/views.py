@@ -21,7 +21,3 @@ def signup(request):
     else:
         form = UserForm()
     return render(request, "accounts/signup.html", {"form": form})
-
-
-def main(request):
-    return render(request, "accounts/main.html")
